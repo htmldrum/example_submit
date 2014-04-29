@@ -1,0 +1,18 @@
+html
+  head
+    title #{title}
+    script(src='javascripts/jquery.js')
+    link(rel='stylesheet', href='stylesheets/style.css')
+  body 
+    h1 #{ title }
+    form( enctype='multipart/form-data' action='/multipart_submit', method='post')
+      div
+        label Image
+        input( id='image' type='file', name='image' )
+        div( id='img_container' )
+      div
+        label Post as JSON?
+        input( type='checkbox' )
+      div
+        input( id="submit" type='submit' )
+    script(src='javascripts/main.js')

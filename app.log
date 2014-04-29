@@ -1,0 +1,12 @@
+POST /json_submit 200 2 - 29 ms
+POST /multipart_submit 200 185 - 8 ms
+GET / 200 541 - 348 ms
+GET /stylesheets/style.css 200 147 - 10 ms
+GET /javascripts/main.js 200 856 - 6 ms
+GET /javascripts/jquery.js 200 594706 - 14 ms
+POST /json_submit 200 2 - 18 ms
+POST /multipart_submit 200 185 - 5 ms
+GET / 200 541 - 26 ms
+GET /stylesheets/style.css 200 147 - 3 ms
+GET /javascripts/main.js 200 856 - 2 ms
+GET /javascripts/jquery.js 200 594706 - 6 ms
